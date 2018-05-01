@@ -1,9 +1,12 @@
 var katzDeli = [];
 
+var number = 1;
+
 const takeANumber = function(katzDeliLine, number) {
-  katzDeliLine.push(number);
   
-  var number = 1;
+  var number += 1;
+  
+  katzDeliLine.push(number);
   
   console.log("Welcome, " + number + ". You are number " + katzDeliLine.length + " in line.");
   
