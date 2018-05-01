@@ -1,11 +1,13 @@
 var katzDeli = [];
 
-const takeANumber = function(katzDeliLine, name) {
-  katzDeliLine.push(name);
+const takeANumber = function(katzDeliLine, number) {
+  katzDeliLine.push(number);
   
-  console.log("Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.");
+  var number = 1;
   
-  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
+  console.log("Welcome, " + number + ". You are number " + katzDeliLine.length + " in line.");
+  
+  return "Welcome, " + number + ". You are number " + katzDeliLine.length + " in line.";
   
 } 
 
